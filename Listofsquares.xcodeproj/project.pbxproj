@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE3608AB1EE4F2B300EF52BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3608AA1EE4F2B300EF52BA /* main.m */; };
+		FE3608AE1EE4F2B300EF52BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3608AD1EE4F2B300EF52BA /* AppDelegate.m */; };
+		FE3608B91EE4F2B300EF52BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE3608B71EE4F2B300EF52BA /* LaunchScreen.storyboard */; };
+		FE3608FF1EE4F30200EF52BA /* YGProductListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3608E91EE4F30200EF52BA /* YGProductListCell.m */; };
+		FE3609001EE4F30200EF52BA /* YGProductListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE3608EA1EE4F30200EF52BA /* YGProductListCell.xib */; };
+		FE3609011EE4F30200EF52BA /* YGProductGoodsListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3608EE1EE4F30200EF52BA /* YGProductGoodsListCell.m */; };
+		FE3609021EE4F30200EF52BA /* YGProductGoodsListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE3608EF1EE4F30200EF52BA /* YGProductGoodsListCell.xib */; };
+		FE3609031EE4F30200EF52BA /* YGProductGoodsSquareCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3608F21EE4F30200EF52BA /* YGProductGoodsSquareCell.m */; };
+		FE3609041EE4F30200EF52BA /* YGProductGoodsSquareCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE3608F31EE4F30200EF52BA /* YGProductGoodsSquareCell.xib */; };
+		FE3609051EE4F30200EF52BA /* YGProductGoodsListViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3608F51EE4F30200EF52BA /* YGProductGoodsListViewCtrl.m */; };
+		FE3609061EE4F30200EF52BA /* YGProductGoodsListViewCtrl.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE3608F61EE4F30200EF52BA /* YGProductGoodsListViewCtrl.xib */; };
+		FE3609071EE4F30200EF52BA /* YGProductSquareCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3608F91EE4F30200EF52BA /* YGProductSquareCell.m */; };
+		FE3609081EE4F30200EF52BA /* YGProductSquareCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE3608FA1EE4F30200EF52BA /* YGProductSquareCell.xib */; };
+		FE3609091EE4F30200EF52BA /* YGProductCategoryList.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE3608FB1EE4F30200EF52BA /* YGProductCategoryList.plist */; };
+		FE36090A1EE4F30200EF52BA /* YGProductListViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3608FD1EE4F30200EF52BA /* YGProductListViewCtrl.m */; };
+		FE36090B1EE4F30200EF52BA /* YGProductListViewCtrl.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE3608FE1EE4F30200EF52BA /* YGProductListViewCtrl.xib */; };
+		FE36090F1EE4F58700EF52BA /* UIView+YGAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FE36090E1EE4F58700EF52BA /* UIView+YGAdditions.m */; };
+		FE3609131EE4FEE700EF52BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE3609121EE4FEE700EF52BA /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FE3608A61EE4F2B300EF52BA /* Listofsquares.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Listofsquares.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE3608AA1EE4F2B300EF52BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE3608AC1EE4F2B300EF52BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FE3608AD1EE4F2B300EF52BA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FE3608B81EE4F2B300EF52BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE3608BA1EE4F2B300EF52BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE3608E81EE4F30200EF52BA /* YGProductListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGProductListCell.h; sourceTree = "<group>"; };
+		FE3608E91EE4F30200EF52BA /* YGProductListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGProductListCell.m; sourceTree = "<group>"; };
+		FE3608EA1EE4F30200EF52BA /* YGProductListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YGProductListCell.xib; sourceTree = "<group>"; };
+		FE3608ED1EE4F30200EF52BA /* YGProductGoodsListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGProductGoodsListCell.h; sourceTree = "<group>"; };
+		FE3608EE1EE4F30200EF52BA /* YGProductGoodsListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGProductGoodsListCell.m; sourceTree = "<group>"; };
+		FE3608EF1EE4F30200EF52BA /* YGProductGoodsListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YGProductGoodsListCell.xib; sourceTree = "<group>"; };
+		FE3608F11EE4F30200EF52BA /* YGProductGoodsSquareCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGProductGoodsSquareCell.h; sourceTree = "<group>"; };
+		FE3608F21EE4F30200EF52BA /* YGProductGoodsSquareCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGProductGoodsSquareCell.m; sourceTree = "<group>"; };
+		FE3608F31EE4F30200EF52BA /* YGProductGoodsSquareCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YGProductGoodsSquareCell.xib; sourceTree = "<group>"; };
+		FE3608F41EE4F30200EF52BA /* YGProductGoodsListViewCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGProductGoodsListViewCtrl.h; sourceTree = "<group>"; };
+		FE3608F51EE4F30200EF52BA /* YGProductGoodsListViewCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGProductGoodsListViewCtrl.m; sourceTree = "<group>"; };
+		FE3608F61EE4F30200EF52BA /* YGProductGoodsListViewCtrl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YGProductGoodsListViewCtrl.xib; sourceTree = "<group>"; };
+		FE3608F81EE4F30200EF52BA /* YGProductSquareCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGProductSquareCell.h; sourceTree = "<group>"; };
+		FE3608F91EE4F30200EF52BA /* YGProductSquareCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGProductSquareCell.m; sourceTree = "<group>"; };
+		FE3608FA1EE4F30200EF52BA /* YGProductSquareCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YGProductSquareCell.xib; sourceTree = "<group>"; };
+		FE3608FB1EE4F30200EF52BA /* YGProductCategoryList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = YGProductCategoryList.plist; sourceTree = "<group>"; };
+		FE3608FC1EE4F30200EF52BA /* YGProductListViewCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGProductListViewCtrl.h; sourceTree = "<group>"; };
+		FE3608FD1EE4F30200EF52BA /* YGProductListViewCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGProductListViewCtrl.m; sourceTree = "<group>"; };
+		FE3608FE1EE4F30200EF52BA /* YGProductListViewCtrl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YGProductListViewCtrl.xib; sourceTree = "<group>"; };
+		FE36090D1EE4F58700EF52BA /* UIView+YGAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YGAdditions.h"; sourceTree = "<group>"; };
+		FE36090E1EE4F58700EF52BA /* UIView+YGAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YGAdditions.m"; sourceTree = "<group>"; };
+		FE3609101EE4F69C00EF52BA /* YGConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YGConfig.h; sourceTree = "<group>"; };
+		FE3609111EE4F6ED00EF52BA /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		FE3609121EE4FEE700EF52BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE3608A31EE4F2B300EF52BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE36089D1EE4F2B200EF52BA = {
+			isa = PBXGroup;
+			children = (
+				FE3608A81EE4F2B300EF52BA /* Listofsquares */,
+				FE3608A71EE4F2B300EF52BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE3608A71EE4F2B300EF52BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE3608A61EE4F2B300EF52BA /* Listofsquares.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE3608A81EE4F2B300EF52BA /* Listofsquares */ = {
+			isa = PBXGroup;
+			children = (
+				FE36090C1EE4F58700EF52BA /* UIView+Additions */,
+				FE3608E61EE4F30200EF52BA /* ProductListViewCtrl */,
+				FE3608AC1EE4F2B300EF52BA /* AppDelegate.h */,
+				FE3608AD1EE4F2B300EF52BA /* AppDelegate.m */,
+				FE3608B71EE4F2B300EF52BA /* LaunchScreen.storyboard */,
+				FE3608BA1EE4F2B300EF52BA /* Info.plist */,
+				FE3609121EE4FEE700EF52BA /* Assets.xcassets */,
+				FE3608A91EE4F2B300EF52BA /* Supporting Files */,
+				FE3609101EE4F69C00EF52BA /* YGConfig.h */,
+				FE3609111EE4F6ED00EF52BA /* PrefixHeader.pch */,
+			);
+			path = Listofsquares;
+			sourceTree = "<group>";
+		};
+		FE3608A91EE4F2B300EF52BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE3608AA1EE4F2B300EF52BA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE3608E61EE4F30200EF52BA /* ProductListViewCtrl */ = {
+			isa = PBXGroup;
+			children = (
+				FE3608EB1EE4F30200EF52BA /* ProductRightViewCtrl */,
+				FE3608E71EE4F30200EF52BA /* ProductListCell */,
+				FE3608F71EE4F30200EF52BA /* ProductSquareCell */,
+				FE3608FC1EE4F30200EF52BA /* YGProductListViewCtrl.h */,
+				FE3608FD1EE4F30200EF52BA /* YGProductListViewCtrl.m */,
+				FE3608FE1EE4F30200EF52BA /* YGProductListViewCtrl.xib */,
+				FE3608FB1EE4F30200EF52BA /* YGProductCategoryList.plist */,
+			);
+			path = ProductListViewCtrl;
+			sourceTree = "<group>";
+		};
+		FE3608E71EE4F30200EF52BA /* ProductListCell */ = {
+			isa = PBXGroup;
+			children = (
+				FE3608E81EE4F30200EF52BA /* YGProductListCell.h */,
+				FE3608E91EE4F30200EF52BA /* YGProductListCell.m */,
+				FE3608EA1EE4F30200EF52BA /* YGProductListCell.xib */,
+			);
+			path = ProductListCell;
+			sourceTree = "<group>";
+		};
+		FE3608EB1EE4F30200EF52BA /* ProductRightViewCtrl */ = {
+			isa = PBXGroup;
+			children = (
+				FE3608EC1EE4F30200EF52BA /* ProductGoodsListCell */,
+				FE3608F01EE4F30200EF52BA /* ProductGoodsSquareCell */,
+				FE3608F41EE4F30200EF52BA /* YGProductGoodsListViewCtrl.h */,
+				FE3608F51EE4F30200EF52BA /* YGProductGoodsListViewCtrl.m */,
+				FE3608F61EE4F30200EF52BA /* YGProductGoodsListViewCtrl.xib */,
+			);
+			path = ProductRightViewCtrl;
+			sourceTree = "<group>";
+		};
+		FE3608EC1EE4F30200EF52BA /* ProductGoodsListCell */ = {
+			isa = PBXGroup;
+			children = (
+				FE3608ED1EE4F30200EF52BA /* YGProductGoodsListCell.h */,
+				FE3608EE1EE4F30200EF52BA /* YGProductGoodsListCell.m */,
+				FE3608EF1EE4F30200EF52BA /* YGProductGoodsListCell.xib */,
+			);
+			path = ProductGoodsListCell;
+			sourceTree = "<group>";
+		};
+		FE3608F01EE4F30200EF52BA /* ProductGoodsSquareCell */ = {
+			isa = PBXGroup;
+			children = (
+				FE3608F11EE4F30200EF52BA /* YGProductGoodsSquareCell.h */,
+				FE3608F21EE4F30200EF52BA /* YGProductGoodsSquareCell.m */,
+				FE3608F31EE4F30200EF52BA /* YGProductGoodsSquareCell.xib */,
+			);
+			path = ProductGoodsSquareCell;
+			sourceTree = "<group>";
+		};
+		FE3608F71EE4F30200EF52BA /* ProductSquareCell */ = {
+			isa = PBXGroup;
+			children = (
+				FE3608F81EE4F30200EF52BA /* YGProductSquareCell.h */,
+				FE3608F91EE4F30200EF52BA /* YGProductSquareCell.m */,
+				FE3608FA1EE4F30200EF52BA /* YGProductSquareCell.xib */,
+			);
+			path = ProductSquareCell;
+			sourceTree = "<group>";
+		};
+		FE36090C1EE4F58700EF52BA /* UIView+Additions */ = {
+			isa = PBXGroup;
+			children = (
+				FE36090D1EE4F58700EF52BA /* UIView+YGAdditions.h */,
+				FE36090E1EE4F58700EF52BA /* UIView+YGAdditions.m */,
+			);
+			path = "UIView+Additions";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE3608A51EE4F2B300EF52BA /* Listofsquares */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE3608BD1EE4F2B300EF52BA /* Build configuration list for PBXNativeTarget "Listofsquares" */;
+			buildPhases = (
+				FE3608A21EE4F2B300EF52BA /* Sources */,
+				FE3608A31EE4F2B300EF52BA /* Frameworks */,
+				FE3608A41EE4F2B300EF52BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Listofsquares;
+			productName = Listofsquares;
+			productReference = FE3608A61EE4F2B300EF52BA /* Listofsquares.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE36089E1EE4F2B200EF52BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = TreeWrite;
+				TargetAttributes = {
+					FE3608A51EE4F2B300EF52BA = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 4BV2935FVX;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FE3608A11EE4F2B200EF52BA /* Build configuration list for PBXProject "Listofsquares" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE36089D1EE4F2B200EF52BA;
+			productRefGroup = FE3608A71EE4F2B300EF52BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE3608A51EE4F2B300EF52BA /* Listofsquares */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE3608A41EE4F2B300EF52BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE3609091EE4F30200EF52BA /* YGProductCategoryList.plist in Resources */,
+				FE3609041EE4F30200EF52BA /* YGProductGoodsSquareCell.xib in Resources */,
+				FE3609021EE4F30200EF52BA /* YGProductGoodsListCell.xib in Resources */,
+				FE3608B91EE4F2B300EF52BA /* LaunchScreen.storyboard in Resources */,
+				FE3609001EE4F30200EF52BA /* YGProductListCell.xib in Resources */,
+				FE36090B1EE4F30200EF52BA /* YGProductListViewCtrl.xib in Resources */,
+				FE3609061EE4F30200EF52BA /* YGProductGoodsListViewCtrl.xib in Resources */,
+				FE3609131EE4FEE700EF52BA /* Assets.xcassets in Resources */,
+				FE3609081EE4F30200EF52BA /* YGProductSquareCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE3608A21EE4F2B300EF52BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE3609031EE4F30200EF52BA /* YGProductGoodsSquareCell.m in Sources */,
+				FE36090F1EE4F58700EF52BA /* UIView+YGAdditions.m in Sources */,
+				FE3609011EE4F30200EF52BA /* YGProductGoodsListCell.m in Sources */,
+				FE3609051EE4F30200EF52BA /* YGProductGoodsListViewCtrl.m in Sources */,
+				FE3608AE1EE4F2B300EF52BA /* AppDelegate.m in Sources */,
+				FE3609071EE4F30200EF52BA /* YGProductSquareCell.m in Sources */,
+				FE3608FF1EE4F30200EF52BA /* YGProductListCell.m in Sources */,
+				FE3608AB1EE4F2B300EF52BA /* main.m in Sources */,
+				FE36090A1EE4F30200EF52BA /* YGProductListViewCtrl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FE3608B71EE4F2B300EF52BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE3608B81EE4F2B300EF52BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE3608BB1EE4F2B300EF52BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FE3608BC1EE4F2B300EF52BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE3608BE1EE4F2B300EF52BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4BV2935FVX;
+				GCC_PREFIX_HEADER = Listofsquares/PrefixHeader.pch;
+				INFOPLIST_FILE = Listofsquares/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lsw.Listofsquares;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FE3608BF1EE4F2B300EF52BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4BV2935FVX;
+				GCC_PREFIX_HEADER = Listofsquares/PrefixHeader.pch;
+				INFOPLIST_FILE = Listofsquares/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lsw.Listofsquares;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE3608A11EE4F2B200EF52BA /* Build configuration list for PBXProject "Listofsquares" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE3608BB1EE4F2B300EF52BA /* Debug */,
+				FE3608BC1EE4F2B300EF52BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE3608BD1EE4F2B300EF52BA /* Build configuration list for PBXNativeTarget "Listofsquares" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE3608BE1EE4F2B300EF52BA /* Debug */,
+				FE3608BF1EE4F2B300EF52BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE36089E1EE4F2B200EF52BA /* Project object */;
+}

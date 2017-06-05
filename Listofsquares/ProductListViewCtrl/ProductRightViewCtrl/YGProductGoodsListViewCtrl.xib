@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="YGProductGoodsListViewCtrl">
+            <connections>
+                <outlet property="announcedBtn" destination="qe7-vI-c4s" id="siM-ue-QO7"/>
+                <outlet property="lineView" destination="Uyc-Ja-2Op" id="EDq-06-YIZ"/>
+                <outlet property="nowBtn" destination="G1s-ZM-fR0" id="nlx-9x-dZz"/>
+                <outlet property="pCollectionView" destination="6Zq-RX-Hqt" id="yS9-u1-yzh"/>
+                <outlet property="popularityBtn" destination="MIe-zP-Hbz" id="Dlg-vu-ZBx"/>
+                <outlet property="priceBtn" destination="wPG-kH-sTd" id="MRe-KH-abb"/>
+                <outlet property="titleView" destination="znc-TT-xnq" id="c7O-2e-juE"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" id="6Zq-RX-Hqt">
+                    <rect key="frame" x="0.0" y="45" width="320" height="529"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="XMj-Ik-3F0">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+                <view contentMode="scaleToFill" id="znc-TT-xnq">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="45"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="qe7-vI-c4s">
+                            <rect key="frame" x="0.0" y="0.0" width="80" height="45"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <color key="tintColor" red="1" green="0.53333333329999999" blue="0.066666666669999999" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            <state key="normal" title="即将揭晓">
+                                <color key="titleColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="selected">
+                                <color key="titleColor" red="1" green="0.53333333333333333" blue="0.066666666666666666" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" red="1" green="0.53333333333333333" blue="0.066666666666666666" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="announcedBtnTouchUpInside:" destination="-1" eventType="touchUpInside" id="LIP-V8-k6y"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="MIe-zP-Hbz">
+                            <rect key="frame" x="80" y="0.0" width="80" height="45"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <color key="tintColor" red="1" green="0.53333333329999999" blue="0.066666666669999999" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            <state key="normal" title="人气">
+                                <color key="titleColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="selected">
+                                <color key="titleColor" red="1" green="0.53333333333333333" blue="0.066666666666666666" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" red="1" green="0.53333333333333333" blue="0.066666666666666666" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="popularityBtnTouchUpInside:" destination="-1" eventType="touchUpInside" id="qBl-O5-Xxn"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="G1s-ZM-fR0">
+                            <rect key="frame" x="160" y="0.0" width="80" height="45"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <color key="tintColor" red="1" green="0.53333333329999999" blue="0.066666666669999999" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            <state key="normal" title="最新">
+                                <color key="titleColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="selected">
+                                <color key="titleColor" red="1" green="0.53333333333333333" blue="0.066666666666666666" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" red="1" green="0.53333333333333333" blue="0.066666666666666666" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="nowBtnTouchUpInside:" destination="-1" eventType="touchUpInside" id="wHq-BA-f3i"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="wPG-kH-sTd">
+                            <rect key="frame" x="240" y="0.0" width="80" height="45"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="tintColor" red="1" green="0.53333333329999999" blue="0.066666666669999999" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            <state key="normal" title="价值" image="product_price_normal">
+                                <color key="titleColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="selected">
+                                <color key="titleColor" red="1" green="0.53333333333333333" blue="0.066666666666666666" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" red="1" green="0.53333333333333333" blue="0.066666666666666666" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="priceBtnTouchUpInside:" destination="-1" eventType="touchUpInside" id="9m3-8J-7s5"/>
+                            </connections>
+                        </button>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="line_horizontal_view" id="Uyc-Ja-2Op">
+                            <rect key="frame" x="0.0" y="35" width="320" height="10"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <point key="canvasLocation" x="32" y="126"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="line_horizontal_view" width="320" height="1"/>
+        <image name="product_price_normal" width="7" height="11"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
+    </simulatedMetricsContainer>
+</document>

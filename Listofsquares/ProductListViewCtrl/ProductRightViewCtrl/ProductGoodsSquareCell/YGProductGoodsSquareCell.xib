@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="YGProductGoodsSquareCell">
+            <rect key="frame" x="0.0" y="0.0" width="140" height="184"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="140" height="184"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="Aur-Jy-Q8B">
+                        <rect key="frame" x="35" y="13" width="75" height="75"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="search_shopping_cart" id="QYN-cn-Zbb">
+                        <rect key="frame" x="97" y="144" width="35" height="35"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="商品名称" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gNO-Xk-pPN">
+                        <rect key="frame" x="8" y="89" width="124" height="15"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="价值：￥279.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="h3R-Kh-QNr">
+                        <rect key="frame" x="8" y="108" width="124" height="14"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" id="4H1-o7-Xzo">
+                        <rect key="frame" x="8" y="126" width="124" height="10"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="qd3-Aq-dC0">
+                                <rect key="frame" x="0.0" y="0.0" width="93" height="10"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.53333333329999999" blue="0.066666666669999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="xaw-T5-E2H">
+                        <rect key="frame" x="8" y="148" width="85" height="27"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <state key="normal" title="立即购买">
+                            <color key="titleColor" red="1" green="0.46666666666666667" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                        <state key="selected" backgroundImage="homepage_buy_select">
+                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                        <state key="highlighted" title="立即购买" backgroundImage="homepage_buy_select">
+                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="titleShadowColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="buyImmediatelyTouchUpInside:" destination="gTV-IL-0wX" eventType="touchUpInside" id="nMC-VP-fev"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="pR3-jk-CYM">
+                        <rect key="frame" x="91" y="139" width="49" height="45"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <connections>
+                            <action selector="addCartTouchCancel:" destination="gTV-IL-0wX" eventType="touchCancel" id="13x-0I-fHc"/>
+                            <action selector="addCartTouchDown:" destination="gTV-IL-0wX" eventType="touchDown" id="Kvd-aK-L4o"/>
+                            <action selector="addCartTouchDragExit:" destination="gTV-IL-0wX" eventType="touchDragExit" id="PF7-Dl-70h"/>
+                            <action selector="addCartTouchUpInside:" destination="gTV-IL-0wX" eventType="touchUpInside" id="Ztp-jd-o9c"/>
+                        </connections>
+                    </button>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="line_horizontal_view" id="Qey-Sd-HMI">
+                        <rect key="frame" x="0.0" y="173" width="140" height="11"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="line_vertical_view" id="l28-7R-m1B">
+                        <rect key="frame" x="131" y="0.0" width="9" height="184"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                </subviews>
+            </view>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <size key="customSize" width="140" height="184"/>
+            <connections>
+                <outlet property="addShopingCartBtn" destination="pR3-jk-CYM" id="23b-nQ-W09"/>
+                <outlet property="bottomLineView" destination="Qey-Sd-HMI" id="T30-11-KCj"/>
+                <outlet property="cartImageView" destination="QYN-cn-Zbb" id="LHD-e2-ubr"/>
+                <outlet property="nameLabel" destination="gNO-Xk-pPN" id="FH3-27-kFA"/>
+                <outlet property="priceLabel" destination="h3R-Kh-QNr" id="NaH-lK-wK1"/>
+                <outlet property="progressBottomView" destination="4H1-o7-Xzo" id="UT8-Zk-SLm"/>
+                <outlet property="progressTopView" destination="qd3-Aq-dC0" id="JAw-eg-Ddq"/>
+                <outlet property="rightLineView" destination="l28-7R-m1B" id="QbY-aP-bnG"/>
+                <outlet property="topImageView" destination="Aur-Jy-Q8B" id="hje-Wf-K14"/>
+                <outlet property="yunBtn" destination="xaw-T5-E2H" id="KqE-GI-6OS"/>
+            </connections>
+            <point key="canvasLocation" x="-462" y="71"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="homepage_buy_select" width="99" height="27"/>
+        <image name="line_horizontal_view" width="320" height="1"/>
+        <image name="line_vertical_view" width="1" height="320"/>
+        <image name="search_shopping_cart" width="37" height="37"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
+    </simulatedMetricsContainer>
+</document>
